@@ -19,7 +19,7 @@ void adjmatrix(graph *g, int v, int e)
  int val1,val2;
  for(int i=0;i<e;i++)
  {
- cout<<"which two vertex you want to join (Piyush,06419051922): ";
+ cout<<"which two vertex you want to join : ";
  cin>>val1;
  cin>>val2;
  g->adj[val1][val2]=1;
