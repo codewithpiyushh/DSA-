@@ -2,7 +2,7 @@
 using namespace std;
 
 struct node {
-    node* right;
+    node* right;.
     node* left;
     int info;
 };
